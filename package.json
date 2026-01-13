@@ -1,0 +1,32 @@
+{
+  "name": "@fun-foundry/prettier-config",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "types": "dist/index.d.ts",
+  "description": "Opinionated Prettier configuration maintained by fun-foundry.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fun-foundry/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fun-foundry/prettier-config/issues"
+  },
+  "homepage": "https://github.com/fun-foundry/prettier-config#readme",
+  "peerDependencies": {
+    "prettier": "^3.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  }
+}
