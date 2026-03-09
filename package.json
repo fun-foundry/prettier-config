@@ -7,6 +7,11 @@
     ".": "./dist/index.js"
   },
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "description": "Opinionated Prettier configuration maintained by fun-foundry.",
   "license": "MIT",
   "scripts": {
@@ -24,9 +29,10 @@
   },
   "homepage": "https://github.com/fun-foundry/prettier-config#readme",
   "peerDependencies": {
-    "prettier": "^3.6.0"
+    "prettier": ">=3"
   },
   "devDependencies": {
+    "prettier": "^3.8.1",
     "typescript": "^5.9.0"
   }
 }
