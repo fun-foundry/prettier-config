@@ -28,14 +28,6 @@ pnpm add -D prettier @fun-foundry/prettier-config
 
 Create a Prettier configuration file and import this package.
 
-Example: `prettier.config.js`
-
-```js
-import config from '@fun-foundry/prettier-config'
-
-export default config
-```
-
 Example: `prettier.config.mjs`
 
 ```js
@@ -44,9 +36,11 @@ import config from '@fun-foundry/prettier-config'
 export default config
 ```
 
-Example: `prettier.config.ts`
+If your project already uses ESM ("type": "module" in package.json), you can also use prettier.config.js.
 
-```ts
+Example: `prettier.config.js`
+
+```js
 import config from '@fun-foundry/prettier-config'
 
 export default config
@@ -72,7 +66,7 @@ This is useful when you want to keep the base style from this package while adap
 
 ## Requirements
 
-- Node.js >= 18
+- Node.js >= 18.18.0
 - Prettier >= 3 < 4
 
 ## License
