@@ -1,6 +1,6 @@
 import type { Config } from 'prettier'
 
-const prettierConfig: Config = {
+const prettierConfig = {
   arrowParens: 'avoid',
   bracketSameLine: false,
   bracketSpacing: true,
@@ -11,6 +11,6 @@ const prettierConfig: Config = {
   tabWidth: 2,
   trailingComma: 'none',
   useTabs: false
-}
+} satisfies Config
 
 export default prettierConfig
